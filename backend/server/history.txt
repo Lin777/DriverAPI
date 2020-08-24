@@ -1,0 +1,500 @@
+   20  jupyter notebook
+   21  jupyter notebook
+   22  jupyter notebook
+   23  jupyter notebook
+   24  jupyter notebook
+   25  jupyter notebook
+   26  jupyter notebook
+   27  jupyter notebook
+   28  jupyter notebook
+   29  jupyter notebook
+   30  jupyter notebook
+   31  jupyter notebook
+   32  sudo pip install kneed
+   33  jupyter notebook
+   34  jupyter notebook
+   35  jupyter notebook
+   36  jupyter notebook
+   37  uname -a
+   38  cat /proc/version
+   39  jupyter --version
+   40  cd Documents/ProyectoFinal/Proyecto
+   41  cd Documents/ProyectoFinal/ProyectoDeGrado/
+   42  ls
+   43  git add .
+   44  git commit -m "Capitulo 5 terminado y modificado"
+   45  git push origin master
+   46  jupyter notebook
+   47  cd Documents/ProyectoFinal/ProyectoDeGrado/
+   48  ls
+   49  git add .
+   50  git commit -m "Division de capitulos, falta terminar el capitulo de conclusiones"
+   51  git push origin master
+   52  cd Documents/ProyectoFinal/ProyectoDeGrado/
+   53  ls
+   54  git add .
+   55  git commit -m "Conclusiones terminado"
+   56  git push origin master
+   57  ifconfig
+   58  cd Documents/ProyectoFinal/Server/LastVersion/
+   59  ls
+   60  cd ServerApp/
+   61  ls
+   62  cd Desktop/
+   63  ls
+   64  cat history >> history.txt
+   65  touch history.txt
+   66  cat history >> history.txt
+   67  cat history > history.txt
+   68  ls
+   69  history > history.txt
+   70  curl -i -u user:password http://localhost:5672/users
+   71  export http_proxy=http://181.188.165.189:1316/
+   72  export https_proxy=https://181.188.165.189:1316/
+   73  export http_proxy=http://181.188.165.189:1316/
+   74  export https_proxy=https://181.188.165.189:1316/
+   75  cd Documents/ProyectoFinal/ProyectoDeGrado/
+   76  ls
+   77  git checkout -b documentoConFormato
+   78  git add .
+   79  git commit -m "Agregar formato y caratula de la UMSS"
+   80  git push origin master
+   81  git push
+   82  git push origin documenoConFormato
+   83  git push origin documentoConFormato
+   84  export http_proxy=http://181.188.165.189:1316/
+   85  export https_proxy=https://181.188.165.189:1316/
+   86  cd ..
+   87  ls
+   88  notebook jupyter
+   89  jupyter
+   90  jupyter notebook
+   91  cd Documents/ProyectoFinal/ProyectoDeGrado/
+   92  git branch
+   93  git add .
+   94  git commit -m "Bibliografia arreglada, y algunos detalles observados por el tutor"
+   95  git push origin documentoConFormato
+   96  git push origin documentoConFormato
+   97  git add .
+   98  cd Documents/ProyectoFinal/ProyectoDeGrado/
+   99  git add .
+  100  git commit -m "Correccion de observaciones"
+  101  git push origin documentoConFormato
+  102  git push origin documentoConFormato
+  103  cd Documents/ProyectoFinal/ProyectoDeGrado/
+  104  git add .
+  105  git commit -m "Correccion de observaciones"
+  106  git push origin documentoConFormato
+  107  export http_proxy=http://181.188.165.189:1316/
+  108  export https_proxy=https://181.188.165.189:1316/
+  109  cd Documents/ProyectoFinal/ProyectoDeGrado/
+  110  git add .
+  111  git commit -m "Correccion de formato"
+  112  git push origin documentoConFormato
+  113  history > history.txt
+  114  nano history.txt 
+  115  cd Documents/ProyectoFinal/Server/LastVersion/
+  116  ls
+  117  cd ServerApp/
+  118  ls
+  119  python manage.py runserver
+  120  cd Documents/ProyectoFinal/Server/LastVersion/
+  121  ls
+  122  ps aux
+  123  top
+  124  cd Documents/ProyectoFinal/Server/LastVersion/
+  125  ls
+  126  cd ServerApp/
+  127  ls
+  128  python manage.py runserver
+  129  ls
+  130  cd ..
+  131  ls
+  132  source DriverAppServer/bin/activate
+  133  python manage.py runserver
+  134  cd ServerApp/
+  135  python manage.py runserver
+  136  cd ..
+  137  deactivate
+  138  ifconfig
+  139  source DriverAppServer/bin/activate
+  140  cd Documents/ProyectoFinal/Server/LastVersion/
+  141  source DriverAppServer/bin/activate
+  142  cd ServerApp/
+  143  python manage.py runserver
+  144  cd Documents/ProyectoFinal/Server/LastVersion/
+  145  source DriverAppServer/bin/activate
+  146  cd ServerApp/
+  147  pwd
+  148  cd Documents/
+  149  ls
+  150  mkdir ServidorTesis
+  151  cd ServidorTesis/
+  152  git clone https://github.com/pplonski/my_ml_service.git
+  153  ls
+  154  cd my_ml_service/
+  155  ls
+  156  cd ..
+  157  ls
+  158  rm -R my_ml_service/
+  159  ls
+  160  git clone https://github.com/Lin777/my_ml_service.git
+  161  ls
+  162  cd my_ml_service/
+  163  ls
+  164  pwd
+  165  virtualenv venv --python=python
+  166  3.6
+  167  ls
+  168  rm -R venv
+  169  ls
+  170  virtualenv venv --python=python3.6
+  171  source venv/bin/activate
+  172  ls
+  173  pip3 install django==2.2.4
+  174  mkdir backend
+  175  cd backend/
+  176  django-admin startproject server
+  177  cd server/
+  178  ;s
+  179  ls
+  180  python manage.py runserver
+  181  pwd
+  182  cd ..
+  183  cd ..
+  184  pwd
+  185  ls
+  186  git add backend/
+  187  git commit -am "Setup django project"
+  188  git push
+  189  pwd
+  190  ls
+  191  pip 3 install jupyter notebook
+  192  pip3 install jupyter notebook
+  193  ipython kernel install --user --name=venv
+  194  ls
+  195  mkdir research
+  196  cd research/
+  197  jupyter notebook
+  198  ls
+  199  cd ..
+  200  ls
+  201  pip3 install numpy pandas sklearn joblib
+  202  ls
+  203  cd research/
+  204  ls
+  205  jupyter notebook
+  206  ls
+  207  cd ..
+  208  ls
+  209  cd backend/
+  210  cd server/
+  211  ls
+  212  python manage.py startapp endpoints
+  213  mkdir apps
+  214  ls
+  215  mv endpoints/ apps/
+  216  ls
+  217  ls apps/endpoints/
+  218  pwd
+  219  pwd
+  220  cd ..
+  221  ls
+  222  cd ..
+  223  ls
+  224  cd backend/server/server/
+  225  ls
+  226  cd ..
+  227  ls
+  228  python manage.py makemigrations
+  229  python manage.py migrate
+  230  ls
+  231  cd ../..
+  232  ls
+  233  pip3 install djangorestframework
+  234  pip3 install markdown
+  235  pip3 install django-filter
+  236  cd backend/server/
+  237  python manage.py runserver
+  238  ls
+  239  cd ..
+  240  ;s
+  241  ls
+  242  git add research/*
+  243  git commit -am "Add ML code and algorithms"
+  244  git push
+  245  git push
+  246  pwd
+  247  ls
+  248  cd backend/server/
+  249  git add apps/endpoints
+  250  git commit -am "Endpoints models"
+  251  git push
+  252  cd ..
+  253  cd ..
+  254  cd backend/server/apps/
+  255  ls
+  256  mkdir ml
+  257  mkdir ml/income_classifier
+  258  cd Documents/ServidorTesis/
+  259  ls
+  260  cd my_ml_service/
+  261  ls
+  262  source venv/bin/activate
+  263  ls
+  264  cd backend/
+  265  ls
+  266  cd server/
+  267  ls
+  268  python manage.py test apps.ml.tests
+  269  python manage.py test apps.ml.tests
+  270  python manage.py test apps.ml.tests
+  271  ls
+  272  python manage.py runserver
+  273  ls
+  274  pwd
+  275  git add apps/ml/
+  276  git commit -am "Add ml code"
+  277  git pudh
+  278  git push
+  279  python manage.py runserver
+  280  pwd
+  281  python manage.py test apps.endpoints.tests
+  282  python manage.py test apps
+  283  deactivate
+  284  cd ..
+  285  cd ..
+  286  ls
+  287  jupyter notebook
+  288  top
+  289  pip3 install numpy pandas sklearn joblib
+  290  cd ..
+  291  ;s
+  292  ls
+  293  source venv/bin/activate
+  294  pip3 install numpy pandas sklearn joblib
+  295  pip install kers
+  296  pip install keras
+  297  pip install matplotlib
+  298  pip install seaborn
+  299  pwd
+  300  pip install --upgrade tensorflow
+  301  pip install --upgrade tensorflow-gpu
+  302  pip3 install --upgrade --force-reinstall tensorflow-gpu
+  303  pip3 install djangorestframework
+  304  pip3 install markdown
+  305  pip3 install django-filter
+  306  pwd
+  307  ls
+  308  cd research/
+  309  jupyter notebook
+  310  deactivate
+  311  cd Documents/ServidorTesis/
+  312  ls
+  313  cd my_ml_service/
+  314  ls
+  315  source venv/bin/activate
+  316  ls
+  317  cd backend/
+  318  ls
+  319  cd server/
+  320  ls
+  321  python manage.py test apps.ml.tests
+  322  python manage.py runserver
+  323  python manage.py makemigrations
+  324  python manage.py migrate
+  325  python manage.py runserver
+  326  pwd
+  327  deactivate
+  328  pwd
+  329  cd ../../..
+  330  pwd
+  331  ls
+  332  git clone https://github.com/Lin777/DriverAppServer.git
+  333  ls
+  334  cd DriverAppServer/
+  335  ls
+  336  ls -l
+  337  ls -a
+  338  virtualenv venv --python=python3.6
+  339  ls
+  340  source venv/bin/activate
+  341  pip3 install django==2.2.4
+  342  mkdir backend
+  343  cd backend/
+  344  ls
+  345  django-admin startproject server
+  346  ls
+  347  cd server/
+  348  ls
+  349  python manage.py runserver
+  350  pip 3 install jupyter notebook
+  351  pip3 install jupyter notebook
+  352  ipython kernel install --user --name=venv
+  353  cd ..
+  354  pwd
+  355  cd ..
+  356  pwd
+  357  ls
+  358  mkdir research
+  359  cd research/
+  360  jupyter notebook
+  361  jupyter notebook
+  362  ls
+  363  cd ..
+  364  cd ..
+  365  ls
+  366  cd DriverAppServer/
+  367  ls
+  368  cd research/
+  369  ls
+  370  cd ..
+  371  ls
+  372  cd backend/
+  373  ls
+  374  cd server/
+  375  ls
+  376  python manage.py startapp endpoints
+  377  mkdir apps
+  378  mv endpoints/ apps/
+  379  ls
+  380  python manage.py makemigrations
+  381  python manage.py migrat
+  382  python manage.py migrate
+  383  python manage.py runserver
+  384  python manage.py runserver
+  385  deactivate
+  386  cd Documents/ProyectoFinal/Proyecto
+  387  cd Documents/ProyectoFinal/ProyectoDeGrado/
+  388  ls
+  389  git add .
+  390  git commit -m "Agregar fuente de las imagenes y cuadros"
+  391  git push origin master
+  392  ls
+  393  git branch
+  394  git status
+  395  git push origin documentoConFormato
+  396  git add .
+  397  git commit -m "Arreglar referencias erroneas"
+  398  git push origin documentoConFormato
+  399  cd Documents/ServidorTesis/
+  400  ls
+  401  cd DriverAppServer/
+  402  ls
+  403  source venv/bin/activate
+  404  cd backend/
+  405  ls
+  406  cd server/
+  407  ls
+  408  python manage.py runserver
+  409  ls
+  410  cd apps/
+  411  ls
+  412  cd ml/
+  413  ls
+  414  jupyter notebook
+  415  cd ..
+  416  ls
+  417  cd ..
+  418  ls
+  419  cd ..
+  420  ls
+  421  cd ..
+  422  ls
+  423  jupyter notebook
+  424  deactivate
+  425  pw
+  426  pwd
+  427  cd /home/lin777/Documents/
+  428  cd ../Downloads/
+  429  ls
+  430  mkdir Chrome
+  431  cd Ch
+  432  cd Chrome/
+  433  ls
+  434  git clone https://aur.archlinux.org/google-chrome.git
+  435  ls
+  436  cd google-chrome/
+  437  ls
+  438  makepkg -s
+  439  ls
+  440  sudo pacman -U google-chrome-79.0.3945.88-1-x86_64.pkg.tar.xz 
+  441  cd Documents/ServidorTesis/
+  442  ls
+  443  cd DriverAppServer/
+  444  ls
+  445  source venv/bin/activate
+  446  ls
+  447  cd backend/
+  448  ls
+  449  cd server/
+  450  ;s
+  451  ls
+  452  python manage.py runserver
+  453  python manage.py createsuperuser
+  454  python manage.py runserver
+  455  ls
+  456  cd ..
+  457  ;s
+  458  cd ..
+  459  ls
+  460  cd research/
+  461  ls
+  462  jupyter notebook
+  463  deactivate
+  464  cd ..
+  465  ls
+  466  source venv/bin/activate
+  467  cd research/
+  468  ls
+  469  jupyter notebook
+  470  cd ../backend/server/
+  471  python manage.py runserver
+  472  y
+  473  cd ../../research/
+  474  ls
+  475  jupyter notebook
+  476  cd ../backend/
+  477  ls
+  478  cd server/
+  479  ls
+  480  python manage.py runserver
+  481  pip uninstall keras
+  482  pip install keras==2.2.5
+  483  python manage.py runserver
+  484  pip uninstall tensorflow
+  485  pip install tensorflow==1.4
+  486  python manage.py runserver
+  487  cd ../../backend/
+  488  ls
+  489  cd ../research/
+  490  ls
+  491  jupyter notebook
+  492  cd ../backend/server/
+  493  python manage.py runserver
+  494  python manage.py runserver --nothreading 
+  495  pip install cython
+  496  python manage.py runserver
+  497  ls
+  498  cd ../backend/server/
+  499  ls
+  500  python manage.py runserver
+  501  top
+  502  clear
+  503  top
+  504  clear
+  505  cd Documents/
+  506  ls
+  507  cd ServidorTesis/
+  508  ls
+  509  cd DriverAppServer/
+  510  ls
+  511  cd backend/
+  512  cd ..
+  513  source venv/bin/activate
+  514  cd backend/
+  515  ls
+  516  cd server/
+  517  ls
+  518  python manage.py runserver
+  519  history >> history.txt

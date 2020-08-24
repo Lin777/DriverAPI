@@ -1,0 +1,93 @@
+ cd Documents/
+  195  ls
+  196  cd ProyectoFinal/
+  197  ls
+  198  cd DriverAppServer/
+  199  ls
+  200  source env/bin/activate
+  201  cd backend/
+  202  ls
+  203  cd server/
+  204  ls
+  205  python manage.py runserver 0.0.0.0:8000
+  206  sudo systemctl start mongod
+  207  ip adr
+  208  ip addr
+  209  cd Documents/
+  210  ls
+  211  cd ProyectoFinal/
+  212  ls
+  213  cd DriverAppServer/
+  214  LS
+  215  ls
+  216  source env/bin/activate
+  217  ls
+  218  cd backend/server/
+  219  ls
+  220  python manage.py runserver 0.0.0.0:8000
+  221  deactive
+  222  deactivate
+
+=====================================================
+              ERRORS
+=====================================================
+
+Cambie tf-nightly==2.1.0.dev20191229 por tf-nightly
+
+Borrar gast - gast==0.2.2
+Borrar keras-preprocessing - Keras-Preprocessing==1.1.0
+Borrar tb-nightly - tb-nightly==2.2.0a20191229
+
+Al finalizar salió este error:
+
+ERROR: tf-nightly 2.4.0.dev20200721 has requirement gast==0.3.3, but you'll have gast 0.2.2 which is incompatible.
+ERROR: tf-nightly 2.4.0.dev20200721 has requirement keras-preprocessing<1.2,>=1.1.1, but you'll have keras-preprocessing 1.1.0 which is incompatible.
+ERROR: tf-nightly 2.4.0.dev20200721 has requirement tb-nightly<2.4.0a0,>=2.3.0a0, but you'll have tb-nightly 2.2.0a20191229 which is incompatible.
+
+
+https://www.freecodecamp.org/news/python-virtual-environments-explained-with-examples/
+
+Por si se quiere borrar la BD: mongo drivingAnalyzer --eval "db.dropDatabase()"
+Por si se quiere saber la IP del equipo:  ifconfig | grep "inet " | grep -v 127.0.0.1  
+
+
+=====================================================
+              INSTALLER
+=====================================================
+0. Instalar MongoDB - en MacOS mongodb-community 
+1. Instalar miniconda (https://docs.conda.io/en/latest/miniconda.html)
+2. Crear un entorno virtual: conda create --name env python=3.6
+3. Copiar los archivos de la carpeta de DriverAppServer
+4. Ingresar a la ruta de la carpeta DriverAppServer
+5. Activar el entorno virtual: conda activate env
+6. Instalar dependencias: pip install -r backend/server/requirements.txt
+7. Para MacOS: pip uninstall tensorflow
+8. Para MacOS: pip install --upgrade https://github.com/lakshayg/tensorflow-build-archived/releases/download/old-tensorflow-versions/tensorflow-1.4.0-cp36-cp36m-macosx_10_12_x86_64.whl
+7. Desactivar entorno virtual: conda deactivate
+
+=====================================================
+		EXECUTE
+=====================================================
+1. Activar el servicio de mongodb: brew services start mongodb-community
+2. Activar el entorno virtual: conda activate env
+3. Ir al directorio backend/server
+4. Hacer la migración: python manage.py makemigrations
+python manage.py migrate
+5. Lanzar la aplicación: python manage.py runserver 0.0.0.0:8000
+6. Abrir en el navegador: localhost:8000/monitoring/
+
+====================================================
+             PROBAR
+====================================================
+curl --header "Content-Type: application/json" --request POST \ --data '{""}'
+
+
+
+
+NORMAL
+
+curl --header "Content-Type: application/json" --request POST --data '{[{"acc_x":4.194016,"acc_y":-0.726532,"acc_z":8.979568,"gyr_x":-0.000900,"gyr_y":-0.000748,"gyr_z":0.000748, "fecha":"24-08-2020", "hora":"00:00:00"},{"acc_x":4.206207,"acc_y":-0.716492,"acc_z":8.832672,"gyr_x":-0.000732,"gyr_y":-0.000351,"gyr_z": 0.000870, "fecha":"24-08-2020", "hora":"00:00:01"},{"acc_x":4.175949,"acc_y":-0.676086,"acc_z":8.834686,"gyr_x":0.000061,"gyr_y":0.000183,"gyr_z":-0.000458, "fecha":"24-08-2020", "hora":"00:00:02"}]}' http://192.168.0.10:8000/api/v1/income_classifier/predict
+
+ANOMALO
+
+curl --header "Content-Type: application/json" --request POST \ --data '{[{"acc_x":4.798996,"acc_y":0.255478, "acc_z":6.945023,"gyr_x":0.039642,"gyr_y":0.007202, "gyr_z":0.053223	},{"acc_x":5.240753,"acc_y":0.271469,"acc_z":7.980225,"gyr_x":0.001465,"gyr_y":-0.008545,"gyr_z": 0.012909},{"acc_x":3.782837,"acc_y":2.956512,"acc_z":8.834686,"gyr_x":0.141922,"gyr_y":0.033630,"gyr_z":0.275391}]}' http://192.168.0.10:8000/api/v1/income_classifier/predict
